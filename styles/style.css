@@ -1,0 +1,36 @@
+body {
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1E1F29;
+}
+
+h1 {
+  color: #FAFAFA;
+  font-style: 36px;
+  font-weight: bold;
+}
+
+form {
+  display: block;
+}
+
+label {
+  color: #AFB2BF;
+}
+
+input,
+textarea,
+select {
+  background-color: #2E2D3D;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #FAFAFA;
+}
+
+button {
+  background-color: #6C38CC;
+  color: #FAFAFA;
+}

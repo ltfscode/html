@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
     <h1>Свяжитесь со мной</h1>
     <form action="#">
-      <div>
+      <div class="inp">
         <label for="email">E-mail*</label>
         <br />
         <input
@@ -19,7 +20,7 @@
           required
         />
       </div>
-      <div>
+      <div class="inp">
         <label for="telegram">Telegram</label>
         <br />
         <input
@@ -29,15 +30,15 @@
           placeholder="Введите Telegram"
         />
       </div>
-      <div>
+      <div class="inp">
         <label for="topic">Тема*</label>
         <br />
         <select name="topic" id="topic" required>
           <option value="courses" selected>Приобретение курсов</option>
-          <option value="feedback" selected>Обратная связь</option>
+          <option value="feedback">Обратная связь</option>
         </select>
       </div>
-      <div>
+      <div class="inp_text">
         <label for="comment">Комментарий</label>
         <br />
         <textarea
@@ -48,7 +49,7 @@
           placeholder="Введите комментарий"
         ></textarea>
       </div>
-      <button type="submit">Отправить</button>
+      <button type="submit" class="btn">Отправить</button>
     </form>
   </body>
 </html>
