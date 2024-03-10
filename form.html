@@ -6,15 +6,49 @@
     <title>Form</title>
   </head>
   <body>
-    <form action="https://www.youtube.com/results">
-      <label for="query">Введите запрос</label>
-      <input
-        type="text"
-        placeholder="Запрос..."
-        name="search_query"
-        id="query"
-      />
-      <button type="submit">Искать на YouTube</button>
+    <h1>Свяжитесь со мной</h1>
+    <form action="#">
+      <div>
+        <label for="email">E-mail*</label>
+        <br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Введите Е-mail"
+          required
+        />
+      </div>
+      <div>
+        <label for="telegram">Telegram</label>
+        <br />
+        <input
+          type="text"
+          name="telegram"
+          id="telegram"
+          placeholder="Введите Telegram"
+        />
+      </div>
+      <div>
+        <label for="topic">Тема*</label>
+        <br />
+        <select name="topic" id="topic" required>
+          <option value="courses" selected>Приобретение курсов</option>
+          <option value="feedback" selected>Обратная связь</option>
+        </select>
+      </div>
+      <div>
+        <label for="comment">Комментарий</label>
+        <br />
+        <textarea
+          name="comment"
+          id="comment"
+          cols="30"
+          rows="4"
+          placeholder="Введите комментарий"
+        ></textarea>
+      </div>
+      <button type="submit">Отправить</button>
     </form>
   </body>
 </html>
