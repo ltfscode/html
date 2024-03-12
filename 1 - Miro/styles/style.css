@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+}
+
+.hrline {
+  height: 1px;
+  background: rgb(240, 240, 240);
+}
+
+#heroButton {
+  background-color: #4262ff;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link {
+  color: #4262ff;
+  text-decoration: underline;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  color: rgb(5, 0, 56);
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.heroText, .footer {
+  color: rgb(5, 0, 56);
+}
+
+.sectionText {
+  color: rgba(5, 0, 56, 0.6);
+}
+
+.foot-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
