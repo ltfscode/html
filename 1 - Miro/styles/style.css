@@ -1,7 +1,15 @@
 * {
   margin: 0;
-  padding: 0;
+  /* padding: 0; */
   font-family: 'Roboto';
+}
+
+header a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #050038;
+  text-decoration: none;
 }
 
 .hrline {
@@ -23,7 +31,8 @@
   font-weight: 400;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
@@ -36,12 +45,22 @@ p {
   line-height: 24px;
 }
 
-.heroText, .footer {
+.heroText,
+.footer {
   color: rgb(5, 0, 56);
 }
 
 .sectionText {
   color: rgba(5, 0, 56, 0.6);
+}
+
+.sectionList {
+  list-style: none;
+  /* list-style: url('../images/check.svg'); */
+}
+
+section li::marker {
+  content: url(../images/check.svg);
 }
 
 .foot-text {
