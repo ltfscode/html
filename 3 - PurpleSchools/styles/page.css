@@ -34,13 +34,17 @@
   gap: 32px;
 }
 
+.button-more {
+  text-align: center;
+}
+
 
 @media (max-width: 480px) {
   .hero {
     padding: 0 24px;
   }
 
-  .hero__cta{
+  .hero__cta {
     gap: 16px;
   }
 }

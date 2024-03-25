@@ -64,7 +64,7 @@
 }
 
 @media (max-width: 640px) {
-  .footer__menu {
+  .footer__social {
     flex-direction: column;
   }
 }
